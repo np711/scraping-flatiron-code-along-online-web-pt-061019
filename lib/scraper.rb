@@ -23,7 +23,8 @@ Scraper.new.get_page
         puts "  Schedule: #{course.schedule}"
         puts "  Description: #{course.description}"
         
-        doc.css(".post").first 
+        doc.css(".post").first.("h2")
+        
         
       end
     end
