@@ -12,6 +12,7 @@ class Scraper
    
   binding.pry 
 end 
+
 Scraper.new.get_page 
 
     def print_courses
